@@ -1,0 +1,320 @@
+:root{
+    /* Color */
+    --bit-coin-orange: #F7931A;
+    --softt-orange: #FFE9D5;
+    --secundary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --white: #FFFFFF;
+    --grey-2: #808080;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+
+header img{
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.header-title-conteiner{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+.header-title-conteiner h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--white);
+}
+
+.header-title-conteiner p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--white);
+}
+
+.header-title-conteiner .header-button{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header-button span{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('./assets/icon/flecha-abajo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-exchange-conteiner{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-conteiner .background-img-coin{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('./assets/img/bitcoin.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-exchange-conteiner h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.main-exchange-conteiner p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
+
+.main-exchange-conteiner-title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-currency-table{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-currency-table .currency-table-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3px;
+    color: var(--bit-coin-orange);
+}
+
+.main-currency-table .currency-table-title__comisiones{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3px;
+    color: var(--secundary-blue);
+}
+
+.currency-table-conteiner{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.currency-table-conteiner table{
+    width: 100%;
+    height: 100%;
+}
+
+.currency-table-conteiner td{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--white);
+}
+
+.currency-table-conteiner .table__top-left{
+    border-radius: 15px 0 0 0;
+}
+
+.currency-table-conteiner .table__top-right{
+    border-radius: 0 15px 0 0;
+}
+
+.currency-table-conteiner .table__button-left{
+    border-radius: 0 0 0 15px;
+}
+
+.currency-table-conteiner .table__button-right{
+    border-radius: 0 0 15px 0;
+}
+
+.currency-table-conteiner .table__right{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+.currency-table-conteiner .down{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("./assets/icon/trending-down-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.currency-table-conteiner .up{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("./assets/icon/trending-up-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.currency-table-date{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background: var(--softt-orange);
+    border-radius: 8px;
+}
+
+.currency-table-date__comisiones{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background: var(--soft-blue);
+    border-radius: 8px;
+}
+
+.currency-table-date p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    font-weight: 300;
+}
+
+.currency-table-date__comisiones p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    font-weight: 300;
+}
+
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.product-detail--batata-logo{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-image: url("./assets/icon/batata-logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -10px;
+    left: calc(50% - 20px);
+}
+
+.product-detail--title{
+    width: 90%;
+    min-height: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color: var(--white);
+    font-weight: 700;
+    line-height: 2.6rem;
+}
+
+.product-detail--title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--grey-2);
+}
