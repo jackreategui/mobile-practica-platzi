@@ -318,3 +318,125 @@ main{
     line-height: 1.8rem;
     color: var(--grey-2);
 }
+
+.product-detail--card{
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--card .clock{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icon/clock-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-detail--card .eyes{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icon/eye-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-detail--card .dollar{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icon/dollar-sign-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-detail--card .check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icon/check-circle-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.product--card-title{
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.product--card-body{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--grey-2);
+}
+
+.bitcoin-img-conteiner{
+    width: 100%;
+    min-width: 288px;
+    max-width: 500px;
+    height: 385px;
+    margin: 0 auto;
+    background-image: url("./assets/img/bitcoinbaby-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bitcoin-img-conteiner h2{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--white);
+    padding-top: 64px;
+    font-weight: 700;
+}
+
+.conteiner-planes{
+    width: 100%;
+    min-width: 288px;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: var(--off-white);
+}
+
+.conteiner-planes .conteiner-planes--text{
+    text-align: center;
+    padding: 0 15px;
+}
+
+.conteiner-planes .conteiner-planes--text h2{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: var(--warm-black);
+}
+
+.conteiner-planes .conteiner-planes--text p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--grey-2);
+    margin-top: 24px;
+}
