@@ -1,0 +1,26 @@
+.main-tables-conteiner{
+    display: flex;
+    width: 930px;
+    margin: 60px auto 0;
+}
+
+.main-currency-table{
+    margin: 0;
+}
+
+.product-cards--conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.plans-conteiner--slider{
+    justify-content: center;
+    scroll-behavior: none;
+    gap: 0;
+}
+
+.plans-conteiner--card{
+    margin: 50px 10px 0;
+}
