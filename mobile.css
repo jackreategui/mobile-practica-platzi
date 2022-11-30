@@ -413,24 +413,27 @@ main{
 
 .conteiner-planes{
     width: 100%;
-    min-width: 288px;
+    min-width: 320px;
     max-width: 500px;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 50px;
-    background-color: var(--off-white);
+    padding-bottom: 70px;
+    text-align: center;
+
 }
 
 .conteiner-planes .conteiner-planes--text{
-    text-align: center;
-    padding: 0 15px;
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .conteiner-planes .conteiner-planes--text h2{
     font-size: 2.4rem;
     line-height: 2.6rem;
     font-weight: 700;
-    color: var(--warm-black);
+    color: var(--black);
+    padding-top: 50px;
 }
 
 .conteiner-planes .conteiner-planes--text p{
@@ -438,5 +441,18 @@ main{
     line-height: 1.8rem;
     font-weight: 500;
     color: var(--grey-2);
-    margin-top: 24px;
+    padding-top: 30px;
+}
+
+.plans-conteiner--card{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
